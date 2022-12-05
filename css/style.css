@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+header{
+    background: url(../images/angel-jimenez.jpg);
+    background-size: cover;/*Especifique el tamaño de una imagen de fondo con "auto" y en píxeles:*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20%;
+    margin:auto;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+body{
+    margin-top: auto;
+    margin-bottom:auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: center;
+    margin: 10px 240px ;
+    font: condensed 150px sans-serif;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;propiedad para darle el tipo de fuente de la escritura*/
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.textoMedio{
+    float: left;
+    margin: 300px 90px;
+    
+}
+
+.imagenMedio{
+    float: right;
+    width: 35%;
+    margin:110px 90px;
+}
+
+.textoMedio h2{
+    font-size: 250%;
+    margin: -10px 0px;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+
+.music{
+    background-image: linear-gradient(#FA4A54,#DA0170);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.color{
+    background-image: linear-gradient(#FA4A54,#DA0170);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.textoMedio h3{
+    font-size: 200%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.textoMedio p{
+    font-size: 110%;
+    color: rgb(77, 77, 77);;
+    margin: 30px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.boton{
+    border-radius: 20px;/*para darle bordes redondiados a la imagen*/
+    padding: 3% 10%;
+    color: aliceblue;
+    background-color: rgb(241, 58, 58);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.boton2{
+    border-radius: 20px;/*para darle bordes redondiados a la imagen*/
+    padding: 3% 10%;
+    color: aliceblue;
+    background-color: rgb(241, 58, 58);
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clear{
+    clear: both;
+}
+
+.textoMedio2{
+    float: right;
+    margin: 300px 90px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagenMedio2{
+    float: left;
+    width: 35%;
+    margin:-100px 90px;
+}
+
+.textoMedio2 h2{
+    font-size: 250%;
+    margin: -225px 0px; 
+}
+
+.textoMedio2 h3{
+    font-size: 200%;
+    margin: 250px 0px -230px 0px ; 
+}
+
+
+.textoMedio2 p{
+    font-size: 110%;
+    color: rgb(77, 77, 77);;
+    margin: 250px 0px 50px 0px;
+
+}
+
+.inferior{
+    background: url(../images/john-raptis.png);
+    background-size: cover;
+    padding: 0%;
+    margin:auto;
+    background-repeat: no-repeat;
+    background-position:center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.inferior h2 {
+    
+    float: right;
+    margin-top: 50px;
+    margin-right: 270px;
+    margin-bottom: 0%;
+    font-size: 50px;
+    color: aliceblue;
+
+}
+
+.inferior h3{
+    padding: auto;
+    float: right;
+    margin-top: 110px;
+    margin-right: -330px;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.inferior p{
+    float: right;
+    margin-top: 180px;
+    margin-right: -500px;
+    color: rgb(255, 255, 255);;
+    font-size: 20px;
+    
+
+}
+
+.boton3{
+    float: right;
+    border-radius: 20px;/*para darle bordes redondiados a la imagen*/
+    padding: 0.8% 3%;
+    color: aliceblue;
+    background-color: rgb(241, 58, 58);
+    text-decoration: none;
+    margin-top:300px;
+    margin-right: -160px;
+    margin-bottom: 70px;
+    
+}
+
+footer{
+    background-image: linear-gradient(to right, rgb(245, 119, 119),rgb(201, 45, 45));
+}
+
+table{
+    width: 80%;
+    padding-bottom: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+table, th, td{
+    color: aliceblue;
+    margin-left: 15%;
+    margin-right: 8%;
+    
+}
+
+th {
+    padding-top: 8%;
+    padding-right: 27%;
+    padding-bottom: 5%;
+}
+
+
+
+.linea p{
+    border:solid 1px white;
+    border-style: solid none none none;
+    margin-left: 15%;
+    margin-right: 10%;
+    font-size: 15px;
+    padding-bottom: 5%;
+
+    
+}
+
+.correo p{
+    float:right;
+    margin-top: -38px;
+    margin-right: 10%;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.derechos p{
+    float: left;
+    margin-top: -38px;
+    margin-left: 15%;
+    color: aliceblue;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
